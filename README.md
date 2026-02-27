@@ -51,6 +51,8 @@ Personal Neovim configuration. Leader is `,`.
 | Key | Action |
 |-----|--------|
 | `Y` | Yank to end of line |
+| `<leader>y` | Yank to system clipboard |
+| `<leader>Y` | Yank to end of line to system clipboard |
 | `<leader>,` | Toggle comment |
 | `<leader>f` | Format buffer |
 
@@ -61,7 +63,6 @@ Personal Neovim configuration. Leader is `,`.
 | `<leader>n` | Toggle line numbers + sign column |
 | `<leader>w` | Toggle word wrap |
 | `<leader>l` | Toggle listchars |
-| `<leader>p` | Toggle paste mode |
 
 ### Windows
 

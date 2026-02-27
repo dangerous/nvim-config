@@ -54,8 +54,9 @@ set('v', '<leader>,', 'gc', { remap = true, desc = 'Toggle comment' })
 -- toggle listchars
 set('n', '<leader>l', '<cmd>set list!<CR>', { desc = 'Toggle [L]istchars' })
 
--- toggle paste
-set('n', '<leader>p', '<cmd>set paste!<CR>', { desc = 'Toggle [P]aste mode' })
+-- yank to system clipboard
+set({ 'n', 'v' }, '<leader>y', '"+y', { desc = '[Y]ank to system clipboard' })
+set('n', '<leader>Y', '"+y$', { desc = '[Y]ank to end of line to system clipboard' })
 
 -- window resizing
 set('n', '+', '<cmd>resize +5<CR>', { desc = 'Increase window height' })
