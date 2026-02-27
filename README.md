@@ -29,7 +29,7 @@ Personal Neovim configuration. Leader is `,`.
 
 | Key | Action |
 |-----|--------|
-| `f` | Find git files (telescope) |
+| `f` | Find git files, falls back to find_files (telescope) |
 | `F` | Live grep (telescope) |
 | `<leader>d` | File explorer (mini.files) |
 | `<leader><leader>` | Find buffers |
